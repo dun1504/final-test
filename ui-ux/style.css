@@ -99,15 +99,18 @@ input[type=text] {
 }
 .main {
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    gap: 20px;
+    grid-template-columns: 33.333% 33.333% 33.333%;
+    grid-template-rows: 50% 50%;
+    gap: 10px;
 }
 .box {
     gap: 20px;
     padding: 40px 20px;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 30% 70%;
+    background-color: #FBFCFF;
+    border-radius: 16px;
+
 }
 .box2 {
     border: 1px solid #ccc;

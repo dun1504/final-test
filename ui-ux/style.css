@@ -99,15 +99,14 @@ input[type=text] {
 }
 .main {
     display: grid;
-    grid-template-columns: 33.333% 33.333% 33.333%;
-    grid-template-rows: 50% 50%;
-    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 20px;
 }
 .box {
     gap: 20px;
     padding: 40px 20px;
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 30% 64%;
     background-color: #FBFCFF;
     border-radius: 16px;
 
